@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRIV Restaurane</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="defaults.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+    <div class="backdrop" onclick="Addclass()"></div>
+    <!-- header section starts here -->
+    <header>
+        <nav class="nav-mobile">
+            <div class="nav-mobile__brand">
+                <div class="mobile-nav__logo-holder">
+                    <i class="fa-regular fa-hand-lizard"></i>
+                </div>
+                <span>GRIV Restaurane</span>
+            </div>
+            <div class="pizza-menu" onclick="Addclass()">
+                <div class="menubars"></div>
+            </div>
+            <div class="mobile__link-holder">
+                <ul>
+                    <li><a href="#" class="mobile__header-links active-link">Home</a></li>
+                    <li><a href="#aboutus" class="mobile__header-links">About Us</a></li>
+                    <li><a href="#explorefoods" class="mobile__header-links">Explore Foods</a></li>
+                    <li><a href="#faq" class="mobile__header-links">FAQ</a></li>
+                </ul>
+                <button class="btn">+1 (405) 325-4592</button>
+            </div>
+        </nav>
+        <nav class="nav-desktop">
+            <div class="header-logo">
+                <i class="fa-regular fa-hand-lizard"></i>
+            </div>
+            <div class="link-holder">
+                <ul>
+                    <li><a href="#" class="header-links">Home</a></li>
+                    <li><a href="#aboutus" class="header-links">About Us</a></li>
+                    <li><a href="#explorefoods" class="header-links">Explore Foods</a></li>
+                    <li><a href="#faq" class="header-links">FAQ</a></li>
+                </ul>
+                <button class="btn btn-main">+1 (405) 325-8749</button>
+            </div>
+        </nav>
+        <section class="header-banner">
+            <div class="header-banner__container">
+                <h1>GRIV Restaurante<br />
+                </h1>
+                <div class="header-banner-content">
+                    <h1>Authentic Italian Food<br />
+                        made fresh daily.<br />
+                    </h1>
+                    <p>We offer 6 delicious pizzas, from basic cheese and basil pizza ($9)
+                        to our signature Classic pizzeria ('Taverne'). A variety of our speciality pizzas offer
+                        healthy yet authentic bites such as 'Pizzeria de la Nazionale', where we’ve created a new delicious pizza in the
+                        beautiful
+                        Norman, Oklahoma, just 20 miles south of Oklahoma City.
+                        We offer all-day dining, with an Italian twist to the menu.</p>
+                    <button class="btn btn-light">Learn more<i class="fa-solid fa-arrow-right-long banner-icon"></i></button>
+                    <button class="btn btn-main">Order now <i class="fa-solid fa-basket-shopping banner-icon"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="header__counter">
+            <div class="counter-item">
+                <h2>30K+</h2>
+                <p>PIZZAS</p>
+            </div>
+            <div class="counter-item">
+                <h2>67K+</h2>
+                <p>LAUGHS</p>
+            </div>
+            <div class="counter-item">
+                <h2>1004+</h2>
+                <p>CATERING JOBS</p>
+            </div>
+            <div class="counter-item">
+                <h2>14782</h2>
+                <p>TO GO BOXES</p>
+            </div>
+        </section>
+    </header>
+    <!-- header section ends here -->
+    <main>
+        <!-- About us section starts here -->
+        <section class="about-us" id="aboutus">
+            <div class="about-us__card-container">
+                <div class="about-us__card-imageholder">
+                    <img src="./img/about1.png" alt="">
+                </div>
+                <div class="about-us__text-contentholder">
+                    <h2>We pride ourselves on<br />
+                        making real food from the<br />
+                        best ingredients.</h2>
+                    <p>9+ We also provide gluten free menu and desserts for those who are on the look out for
+                        something new. We are passionate about keeping the menu fresh and modern. We are very
+                        hard working, always on time, and make sure that the end-product is pleasing for everyone.
+                        Our menu is based on the best seasonal and imported ingredients.</p>
+                    <button class="btn btn-main">learn more<i class="fa-solid fa-arrow-right-long cardicon"></i></button>
+                </div>
+            </div>
+            <div class="about-us__card-container">
+                <div class="about-us__text-contentholder">
+                    <h2>We make everything by<br />
+                        hand with the best possible<br />
+                        ingredients.</h2>
+                    <p>We will show you what it's like to dine with us, and we don't mind sharing a
+                        few too many laughs along the way!</p>
+                    <ul>
+                        <li> <i class="fa-solid fa-check check-icon"></i> Panzenella</li>
+                        <li> <i class="fa-solid fa-check check-icon"></i> Mushroom Risotto</li>
+                        <li> <i class="fa-solid fa-check check-icon"></i> Pasta Carbonara</li>
+                        <li> <i class="fa-solid fa-check check-icon"></i> Caprese Salad with Pesto Sauce</li>
+                    </ul>
+                    <button class="btn btn-main">learn more<i class="fa-solid fa-arrow-right-long cardicon"></i></button>
+                </div>
+                <div class="about-us__card-imageholder">
+                    <img src="./img/about2.png" alt="">
+                </div>
+            </div>
+            <div class="about-us__banner-holder">
+                <h2>"Every pizza is a personal pizza if you try hard and believe in yourself." - Bill Murray</h2>
+                <p>We bring you what you always wanted, and the best in authentic Italian food – with a menu that ranges
+                    from starters, lasagna, fresh pasta, pizzas, risotto, antipasti, pasta e fettuccini, and so much
+                    more. We don’t just serve food, but we do an amazing job at making it special. We don’t just provide
+                    unique food, we create a warm and welcoming dining experience.
+                </p>
+                <button class="btn-waves"><i class="fa-solid fa-play"></i></button>
+            </div>
+        </section>
+        <!-- About us section ends here -->
+        <!-- Explore foods section starts here -->
+        <section class="explore-foods" id="explorefoods">
+            <h2>Explore Our Foods</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse culpa, ipsam consequuntur adipisci tenetur
+                architecto dicta necessitatibus voluptatibus aperiam eum vel voluptate dolorum quas? Minima in quasi
+                possimus eius blanditiis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse culpa, ipsam
+                consequuntur adipisci tenetur architecto dicta necessitatibus voluptatibus aperiam eum vel voluptate
+                dolorum quas? Minima in quasi possimus eius blanditiis?</p>
+            <div class="foodcard-container">
+                <div class="foodcard__item">
+                    <div class="foodcard__image-holder">
+                        <img src="./img/explore1.jpg" alt="Margherita Personal Pizza">
+                    </div>
+                    <div class="foodcard__text-holder">
+                        <h4>Margherita Personal Pizza</h4>
+                        <p>Time: 15 - 20 Minutes | Serves: 1</p>
+                        <h3>$10.50 <span>$11.70</span></h3>
+                        <button class="btn btn-main">Order now</button>
+                    </div>
+                </div>
+                <div class="foodcard__item">
+                    <div class="foodcard__image-holder">
+                        <img src="./img/explore2.jpg" alt="Bruschetta">
+                    </div>
+                    <div class="foodcard__text-holder">
+                        <h4>Bruschetta</h4>
+                        <p>Time: 8 - 12 Minutes | Serves: 4</p>
+                        <h3>$9.20 <span>$10.50</span></h3>
+                        <button class="btn btn-main">Order now</button>
+                    </div>
+                </div>
+                <div class="foodcard__item">
+                    <div class="foodcard__image-holder">
+                        <img src="./img/explore3.jpg" alt="Shrimp Carbonara">
+                    </div>
+                    <div class="foodcard__text-holder">
+                        <h4>Shrimp Carbonara</h4>
+                        <p>Time: 10 - 15 Minutes | Serves: 1</p>
+                        <h3>$12.50 <span>$13.20</span></h3>
+                        <button class="btn btn-main">Order now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Explore foods section ends here -->
+        <!-- Faq section starts here -->
+        <section class="faq" id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faqs__container">
+                <div class="faqs__item">
+                    <h3><span><i class="fa-solid fa-leaf"></i></span> Are your pizza crusts really baked fresh each day?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos odit incidunt reiciendis
+                        officia explicabo sint, magnam ex laboriosam vel sed eligendi architecto? At iusto nesciunt,
+                        quod est assumenda cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="faqs__item">
+                    <h3><span><i class="fa-solid fa-leaf"></i></span> Do you have a kids menu?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos odit incidunt reiciendis
+                        officia explicabo sint, magnam ex laboriosam vel sed eligendi architecto? At iusto nesciunt,
+                        quod est assumenda cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="faqs__item">
+                    <h3><span><i class="fa-solid fa-leaf"></i></span> Do I need to make a reservation?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos odit incidunt reiciendis
+                        officia explicabo sint, magnam ex laboriosam vel sed eligendi architecto? At iusto nesciunt,
+                        quod est assumenda cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="faqs__item">
+                    <h3><span><i class="fa-solid fa-leaf"></i></span> Are you able to accomodate food allergies?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos odit incidunt reiciendis
+                        officia explicabo sint, magnam ex laboriosam vel sed eligendi architecto? At iusto nesciunt,
+                        quod est assumenda cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="faq__parallax">
+                <h2>
+                    Baked fresh daily by bakers with passion</h2>
+                <button class="btn btn-main">Learn more</button>
+            </div>
+        </section>
+        <!-- Faq section ends here -->
+        <!-- cta section starts here -->
+        <section class="cta">
+            <h2>Subscribe to our newsletter<br />
+                and get 25% Off</h2>
+            <p>Limited time offer for this month. No credit card required.</p>
+            <div class="cta__input-holder">
+                <input type="text" placeholder="xxxxxx@email.com">
+                <button class="btn">Subscribe</button>
+            </div>
+        </section>
+        <!-- cta section ends here -->
+    </main>
+    <!-- Footer section starts here-->
+    <footer>
+        <div class="footer-copyright">
+            &copy; 2021 GRIV Restaurante, built by Lydia Royce at Auburn University
+        </div>
+        <div class="footer-icon__holder">
+            <span class="footer-icons">
+                <a href="https://www.linkedin.com/in/lydiaroyce/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </span>
+            <span class="footer-icons">
+                <a href="https://twitter.com/lydia_royce" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </span>
+            <div class="footer-button__holder">
+                <button>
+                    <a href="mailto:lydia.e.royce@gmail.com">
+                        Contact Developer <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </button>
+            </div>
+    </footer>
+    <!-- footer section ends here -->
+    <script src="main.js"></script>
+</body>
+
+</html>
