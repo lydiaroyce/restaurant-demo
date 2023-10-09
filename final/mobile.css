@@ -1,9 +1,5 @@
 @media screen and (max-width: 851px) {
 
-    /* faq section starts here */
-    /* faq section starts here */
-
-
     /* Headers section starts here */
     .nav-mobile {
         display: flex;
@@ -21,8 +17,6 @@
         width: 100%;
     }
 
-    /* Headers section starts here */
-
     /* about us section starts here */
     .about-us {
         padding: 30px 10px;
@@ -39,16 +33,11 @@
         margin: 20px 0;
     }
 
-    /* about us section starts here */
-
     /* explore foods section starts here */
 
     .foodcard__item {
         margin: 20px 0;
     }
-
-    /* explore foods section starts here */
-
 
     /* faq section starts here */
     .faqs__item {
@@ -58,8 +47,6 @@
     .faq__parallax {
         flex-direction: column;
     }
-
-    /* faq section starts here */
 
     /* Footer section starts here */
     footer {
